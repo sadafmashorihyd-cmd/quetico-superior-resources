@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink text-paper font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-paper;
+  }
+
+  ::selection {
+    background-color: #C9A227;
+    color: #0A0E14;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #C9A227;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Thin gold hairline rule — used to echo survey/section lines on the assay maps */
+  .rule-gold {
+    @apply border-t border-gold-dim/60;
+  }
+
+  .label-strata {
+    @apply text-[13px] tracking-wide2 text-gold-light/90;
+  }
+
+  .container-site {
+    @apply mx-auto w-full max-w-6xl px-6 md:px-10;
+  }
+}
