@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
-  title: "Services",
+  title: "Exploration",
   description:
-    "Gold and critical metals exploration services offered by Quetico Superior Resources Inc. across northwestern Ontario.",
+    "How Quetico Superior Resources Inc. explores for gold, copper and platinum group metals across northwestern Ontario — district-scale exploration using modern techniques including AI.",
 };
 
 const APPROACH = [
@@ -26,14 +26,28 @@ const APPROACH = [
   },
 ];
 
-export default function ServicesPage() {
+export default function ExplorationPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Services"
+        eyebrow="Exploration"
         title="Gold & critical metals exploration, done in harmony with the land."
         intro="Quetico Superior Resources Inc. is a gold and critical metals exploration company working in the greenstone belts of northwestern Ontario — in harmony with the environment, local communities and our stakeholders and investors."
       />
+
+      <section className="border-b border-white/5 bg-ink-900 py-20 md:py-24">
+        <div className="container-site max-w-3xl">
+          <p className="label-strata mb-5">Our Focus</p>
+          <h2 className="font-display text-3xl md:text-4xl leading-snug">
+            District-scale exploration, using modern techniques including AI.
+          </h2>
+          <p className="mt-6 text-[15px] leading-relaxed text-slate-light">
+            Rather than looking at a single showing in isolation, we look at
+            the greenstone belts and structural corridors of the region as a
+            whole — and apply modern techniques, including AI, to that work.
+          </p>
+        </div>
+      </section>
 
       <section className="bg-ink py-24 md:py-28">
         <div className="container-site">

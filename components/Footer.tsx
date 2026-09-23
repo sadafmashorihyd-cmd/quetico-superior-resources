@@ -19,7 +19,7 @@ export default function Footer() {
           <p className="label-strata mb-4">Company</p>
           <ul className="space-y-2.5 text-[14px] text-slate-light">
             <li><Link href="/about" className="hover:text-gold-light transition-colors">About Us</Link></li>
-            <li><Link href="/services" className="hover:text-gold-light transition-colors">Services</Link></li>
+            <li><Link href="/exploration" className="hover:text-gold-light transition-colors">Exploration</Link></li>
             <li><Link href="/projects" className="hover:text-gold-light transition-colors">Projects</Link></li>
             <li><Link href="/contact" className="hover:text-gold-light transition-colors">Contact</Link></li>
           </ul>

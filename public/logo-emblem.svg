@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 210" role="img" aria-label="Quetico Superior Resources Inc.">
+  <defs>
+    <radialGradient id="sunG" gradientUnits="userSpaceOnUse" cx="200" cy="170" r="46">
+      <stop offset="0" stop-color="#FFF6C9"/>
+      <stop offset="0.45" stop-color="#FFC94A"/>
+      <stop offset="1" stop-color="#F08A1C"/>
+    </radialGradient>
+    <radialGradient id="rayG" gradientUnits="userSpaceOnUse" cx="200" cy="170" r="155">
+      <stop offset="0.38" stop-color="#F6D77A"/>
+      <stop offset="0.75" stop-color="#D9A93A" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0.15"/>
+    </radialGradient>
+    <linearGradient id="horG" x1="10" y1="0" x2="390" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C9A227" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#E8C468"/>
+      <stop offset="0.5" stop-color="#FFF0B0"/>
+      <stop offset="0.8" stop-color="#E8C468"/>
+      <stop offset="1" stop-color="#C9A227" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+    <polygon points="261.67,163.07 290.87,155.61 260.80,157.54" fill="url(#rayG)"/>
+    <polygon points="259.83,153.50 312.22,133.54 258.10,148.18" fill="url(#rayG)"/>
+    <polygon points="256.51,144.35 281.97,128.23 253.97,139.36" fill="url(#rayG)"/>
+    <polygon points="252.16,136.31 321.35,81.83 248.16,130.81" fill="url(#rayG)"/>
+    <polygon points="245.82,128.14 265.05,104.95 241.86,124.18" fill="url(#rayG)"/>
+    <polygon points="238.71,121.49 269.36,74.54 234.18,118.20" fill="url(#rayG)"/>
+    <polygon points="230.64,116.03 241.77,88.03 225.65,113.49" fill="url(#rayG)"/>
+    <polygon points="222.39,112.09 246.35,27.34 215.93,109.98" fill="url(#rayG)"/>
+    <polygon points="212.46,109.20 214.39,79.13 206.93,108.33" fill="url(#rayG)"/>
+    <polygon points="202.80,108.00 200.00,52.00 197.20,108.00" fill="url(#rayG)"/>
+    <polygon points="193.07,108.33 185.61,79.13 187.54,109.20" fill="url(#rayG)"/>
+    <polygon points="184.07,109.98 153.65,27.34 177.61,112.09" fill="url(#rayG)"/>
+    <polygon points="174.35,113.49 158.23,88.03 169.36,116.03" fill="url(#rayG)"/>
+    <polygon points="165.82,118.20 130.64,74.54 161.29,121.49" fill="url(#rayG)"/>
+    <polygon points="158.14,124.18 134.95,104.95 154.18,128.14" fill="url(#rayG)"/>
+    <polygon points="151.84,130.81 78.65,81.83 147.84,136.31" fill="url(#rayG)"/>
+    <polygon points="146.03,139.36 118.03,128.23 143.49,144.35" fill="url(#rayG)"/>
+    <polygon points="141.90,148.18 87.78,133.54 140.17,153.50" fill="url(#rayG)"/>
+    <polygon points="139.20,157.54 109.13,155.61 138.33,163.07" fill="url(#rayG)"/>
+    <path d="M145,170 A55,55 0 0 1 255,170" fill="none" stroke="#E8C468" stroke-width="1.6" opacity="0.8"/>
+    <path d="M154,170 A46,46 0 0 1 246,170 Z" fill="url(#sunG)"/>
+    <rect x="10" y="170" width="380" height="3" fill="url(#horG)"/>
+    <rect x="130" y="183" width="140" height="2.2" fill="url(#horG)" opacity="0.85"/>
+    <rect x="156" y="193" width="88" height="2.2" fill="url(#horG)" opacity="0.65"/>
+    <rect x="178" y="203" width="44" height="2.2" fill="url(#horG)" opacity="0.45"/>
+</svg>

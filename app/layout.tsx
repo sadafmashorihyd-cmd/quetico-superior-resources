@@ -50,7 +50,14 @@ export const metadata: Metadata = {
       "A new dawn emerges in the Quetico — exploring for gold, copper and platinum group metals.",
     url: siteUrl,
     siteName: "Quetico Superior Resources Inc.",
-    images: ["/hero-dawn.jpg"],
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Quetico Superior Resources Inc. — a new dawn for a new discovery",
+      },
+    ],
     locale: "en_CA",
     type: "website",
   },
@@ -59,7 +66,7 @@ export const metadata: Metadata = {
     title: "Quetico Superior Resources Inc.",
     description:
       "A new dawn emerges in the Quetico — exploring for gold, copper and platinum group metals.",
-    images: ["/hero-dawn.jpg"],
+    images: ["/og-image.jpg"],
   },
   icons: {
     icon: "/favicon.png",

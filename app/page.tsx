@@ -10,12 +10,14 @@ export default function HomePage() {
         style={{ aspectRatio: "1200 / 800", minHeight: "480px", maxHeight: "720px" }}
       >
         <Image
-          src="/hero-dawn-banner.jpg"
-          alt="Sunrise over the treeline of the Quetico–Superior region, northwestern Ontario"
+          src="/hero-dawn.jpg"
+          alt="The sun rising over calm water — a new dawn"
           fill
           priority
+          quality={90}
+          sizes="100vw"
           className="object-cover"
-          style={{ objectPosition: "center 40%" }}
+          style={{ objectPosition: "center 62%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/25 via-transparent to-transparent" />
@@ -40,7 +42,7 @@ export default function HomePage() {
               View Our Projects
             </Link>
             <Link
-              href="/services"
+              href="/exploration"
               className="inline-flex items-center border border-gold-dim px-7 py-3.5 text-[13px] tracking-wide2 uppercase text-gold-light hover:border-gold hover:text-paper transition-colors"
             >
               How We Work
@@ -67,6 +69,10 @@ export default function HomePage() {
               structures and greenstone belts that have historically hosted
               gold, copper and platinum group metal mineralization in
               northwestern Ontario.
+            </p>
+            <p className="mt-4 text-[15px] leading-relaxed text-slate-light">
+              Our focus is district-scale exploration, using modern
+              techniques including AI.
             </p>
           </div>
 

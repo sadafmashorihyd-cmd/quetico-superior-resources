@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://queticosuperiorresources.com";
-  const routes = ["", "/about", "/services", "/projects", "/contact"];
+  const routes = ["", "/about", "/exploration", "/projects", "/contact"];
 
   return routes.map((route) => ({
     url: `${base}${route}`,

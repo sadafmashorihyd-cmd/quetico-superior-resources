@@ -173,6 +173,29 @@ export default function ProjectsPage() {
             The property, its geology, and samples from the field.
           </h2>
 
+          <figure className="mb-10">
+            <a
+              href="/projects/baril-bay-project-map.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-white/5 bg-white"
+            >
+              <Image
+                src="/projects/baril-bay-project-map.png"
+                alt="Project scale map of the Baril Bay Property, Boot Bay Area, Ontario, showing mining cell claims, the Benton #1 Trench and nearby occurrences"
+                width={2420}
+                height={1870}
+                quality={95}
+                sizes="(min-width: 1280px) 1200px, 100vw"
+                className="h-auto w-full"
+              />
+            </a>
+            <figcaption className="mt-3 text-[12px] text-slate">
+              Project scale map — Baril Bay Property, Boot Bay Area, Ontario
+              (May 2026). Click to open full size.
+            </figcaption>
+          </figure>
+
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             {GALLERY.map((item) => (
               <figure
@@ -185,14 +208,17 @@ export default function ProjectsPage() {
                   src={item.src}
                   alt={item.caption}
                   fill
+                  quality={90}
+                  sizes="(min-width: 768px) 25vw, 50vw"
                   className="object-cover"
                 />
               </figure>
             ))}
           </div>
           <p className="mt-6 text-[12px] text-slate">
-            Maps and figures from prospecting and assessment work by Salo
-            Geoscience Services (2025) and R. Hrkac (2022).
+            Project scale map prepared for Quetico Superior Resources Inc.
+            Other maps and figures from prospecting and assessment work by
+            Salo Geoscience Services (2025) and R. Hrkac (2022).
           </p>
         </div>
       </section>

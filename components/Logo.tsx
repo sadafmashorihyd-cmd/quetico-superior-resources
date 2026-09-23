@@ -5,25 +5,19 @@ export default function Logo({ compact = false }: { compact?: boolean }) {
   return (
     <Link
       href="/"
-      className="flex items-center gap-3 group"
+      className="flex items-center"
       aria-label="Quetico Superior Resources Inc — home"
     >
+      {/* Vector logo (SVG) — stays sharp at any size / screen density */}
       <Image
-        src="/logo-mark.png"
-        alt=""
-        width={compact ? 85 : 106}
-        height={compact ? 32 : 40}
-        className="shrink-0 object-contain"
+        src="/logo-horizontal.svg"
+        alt="Quetico Superior Resources Inc."
+        width={752}
+        height={118}
+        unoptimized
         priority
+        className={compact ? "h-11 w-auto" : "h-10 w-auto md:h-[52px]"}
       />
-      <span className="leading-tight">
-        <span className="block font-display text-[15px] md:text-[17px] text-paper group-hover:text-gold-light transition-colors">
-          Quetico Superior
-        </span>
-        <span className="block text-[10px] tracking-wide2 text-gold uppercase">
-          Resources Inc.
-        </span>
-      </span>
     </Link>
   );
 }

@@ -1,14 +1,15 @@
 # Quetico Superior Resources Inc. — Website
 
-A 5-page corporate website (Home, About Us, Projects, Investors, Contact)
+A 5-page corporate website (Home, About Us, Exploration, Projects, Contact)
 built with **Next.js 14 (App Router)** and **Tailwind CSS**.
 
 ## What's included
 
 - `app/` — the 5 pages, root layout, SEO metadata, sitemap.xml and robots.txt
 - `components/` — Header (with mobile menu), Footer, Logo, PageHeader, ContactForm
-- `public/logo-mark.svg` — the gold survey-mark logo icon
-- `public/hero-dawn.jpg` — your sunrise cover photo, used on the homepage hero
+- `public/logo-horizontal.svg`, `logo-full.svg`, `logo-emblem.svg` — the sunrise logo (vector, transparent background, no trees)
+- `public/hero-dawn.jpg` — tree-free sunrise hero image used on the homepage (2400×1600)
+- `public/og-image.jpg` — social-sharing preview image
 - `public/contour.svg` — a subtle topographic line pattern used as a background texture
 - `app/api/contact/route.ts` — a stub API route for the contact form (see "Connecting the contact form" below)
 
@@ -75,11 +76,9 @@ the exact DNS records can be worked out together.
 
 Several sections are intentionally placeholders, per the brief:
 
-- **Projects** — the three sample project cards should be replaced with
-  real project names, locations, maps and results.
-- **About Us** — the leadership/team cards need real names, titles and bios.
-- **Investors** — corporate presentation, filings and news are marked
-  "Coming Soon" pending your listing process.
+- **Projects** — Bon Terra is live (with the Baril Bay project scale map); add
+  further projects as they are confirmed.
+- **About Us** — founder bio is in; add further team members when available.
 
 ## Design notes
 
