@@ -39,7 +39,7 @@ export default function ProjectsPage() {
     <>
       <PageHeader
         eyebrow="Projects"
-        title="Bon Terra — a gold & copper exploration property in the Lac des Mille Lacs greenstone belt."
+        title="Bon Terra — a Gold & Copper exploration property in the Lac des Mille Lacs Greenstone Belt."
         intro="Located in the Boot Bay Area, Thunder Bay Mining Division, Bon Terra sits along the Quetico Fault — a structural corridor with a long history of gold occurrences in northwestern Ontario."
       />
 
@@ -200,9 +200,8 @@ export default function ProjectsPage() {
             {GALLERY.map((item) => (
               <figure
                 key={item.src}
-                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${
-                  item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
-                }`}
+                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
+                  }`}
               >
                 <Image
                   src={item.src}
