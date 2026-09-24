@@ -25,13 +25,10 @@ export default function HomePage() {
         <div className="container-site relative flex h-full flex-col justify-end pb-14 md:pb-20">
           <p className="label-strata mb-6">Quetico–Superior Region · Northwestern Ontario</p>
           <h1 className="font-display text-4xl italic leading-[1.15] text-paper sm:text-5xl md:text-6xl md:max-w-3xl">
-            A New Dawn for a New Discovery
+            A new dawn emerges in the Quetico, exploring for gold, copper &amp;
+            platinum group metals.
           </h1>
-          <p className="mt-5 max-w-2xl text-lg text-gold-light md:text-xl">
-            Exploring for gold, copper &amp; platinum group metals in the
-            Quetico–Superior region.
-          </p>
-          <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-slate-light">
+          <p className="mt-7 max-w-xl text-[15px] leading-relaxed text-slate-light">
             Quetico Superior Resources Inc. is a Canadian mineral exploration
             company built on the Archean geology of the Quetico–Superior
             region — ground that has produced some of Ontario&rsquo;s
