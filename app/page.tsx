@@ -65,7 +65,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-6 text-[15px] leading-relaxed text-slate-light">
               We are assembling and advancing a portfolio of exploration
-              ground across the Quetico–Superior region, targeting the
+              ground across the Quetico–Superior region and the wider Ontario area, targeting the
               structures and greenstone belts that have historically hosted
               gold, copper and platinum group metal mineralization in
               northwestern Ontario.
