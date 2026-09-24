@@ -8,7 +8,7 @@ built with **Next.js 14 (App Router)** and **Tailwind CSS**.
 - `app/` — the 5 pages, root layout, SEO metadata, sitemap.xml and robots.txt
 - `components/` — Header (with mobile menu), Footer, Logo, PageHeader, ContactForm
 - `public/logo-horizontal.svg`, `logo-full.svg`, `logo-emblem.svg` — the sunrise logo (vector, transparent background, no trees)
-- `public/hero-dawn.jpg` — tree-free sunrise hero image used on the homepage (2400×1600)
+- `public/hero-dawn-banner.jpg` — the sunrise cover photo (from Ayub) used on the homepage hero
 - `public/og-image.jpg` — social-sharing preview image
 - `public/contour.svg` — a subtle topographic line pattern used as a background texture
 - `app/api/contact/route.ts` — a stub API route for the contact form (see "Connecting the contact form" below)

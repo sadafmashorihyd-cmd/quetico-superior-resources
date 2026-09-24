@@ -10,14 +10,14 @@ export default function HomePage() {
         style={{ aspectRatio: "1200 / 800", minHeight: "480px", maxHeight: "720px" }}
       >
         <Image
-          src="/hero-dawn.jpg"
-          alt="The sun rising over calm water — a new dawn"
+          src="/hero-dawn-banner.jpg"
+          alt="Sunrise over the treeline of the Quetico–Superior region, northwestern Ontario"
           fill
           priority
           quality={90}
           sizes="100vw"
           className="object-cover"
-          style={{ objectPosition: "center 62%" }}
+          style={{ objectPosition: "center 40%" }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/40 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/25 via-transparent to-transparent" />
@@ -25,10 +25,13 @@ export default function HomePage() {
         <div className="container-site relative flex h-full flex-col justify-end pb-14 md:pb-20">
           <p className="label-strata mb-6">Quetico–Superior Region · Northwestern Ontario</p>
           <h1 className="font-display text-4xl italic leading-[1.15] text-paper sm:text-5xl md:text-6xl md:max-w-3xl">
-            A new dawn emerges in the Quetico, exploring for gold, copper &amp;
-            platinum group metals.
+            A New Dawn for a New Discovery
           </h1>
-          <p className="mt-7 max-w-xl text-[15px] leading-relaxed text-slate-light">
+          <p className="mt-5 max-w-2xl text-lg text-gold-light md:text-xl">
+            Exploring for gold, copper &amp; platinum group metals in the
+            Quetico–Superior region.
+          </p>
+          <p className="mt-6 max-w-xl text-[15px] leading-relaxed text-slate-light">
             Quetico Superior Resources Inc. is a Canadian mineral exploration
             company built on the Archean geology of the Quetico–Superior
             region — ground that has produced some of Ontario&rsquo;s
