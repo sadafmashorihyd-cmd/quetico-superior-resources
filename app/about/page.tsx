@@ -103,7 +103,7 @@ export default function AboutPage() {
                   exploration programme in Ontario. His focus is on
                   identifying quality mineral opportunities, establishing
                   strategic partnerships, and creating long-term value for
-                  shareholders and stakeholders.
+                  stakeholders.
                 </p>
               </div>
             </div>
