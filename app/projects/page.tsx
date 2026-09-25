@@ -59,8 +59,8 @@ export default function ProjectsPage() {
               </p>
               <p>
                 The property is underlain by mafic to intermediate
-                metavolcanic rocks of the Lac des Mille Lacs greenstone belt,
-                within the central Wabigoon Subprovince. The Quetico Fault —
+                metavolcanic rocks in the Lac des Mille Lacs area, along the
+                Wabigoon Greenstone Belt. The Quetico Fault —
                 a major, east–west trending structural feature extending
                 over 500 km — runs approximately 1 km south of the property
                 through Baril Bay, marking the contact between the volcanic

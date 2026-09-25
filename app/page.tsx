@@ -114,9 +114,9 @@ export default function HomePage() {
               Ground shaped by two billion years of geology.
             </h2>
             <p className="mt-6 text-[15px] leading-relaxed text-slate-light">
-              Our ground is situated in the Lac des Mille Lacs Greenstone
-              Belt, within the central Wabigoon Subprovince of the Archean
-              Superior Province — a setting of mafic metavolcanic belts,
+              Our ground is situated in the Lac des Mille Lacs area, along
+              the Wabigoon Greenstone Belt of the Archean Superior Province —
+              a setting of mafic metavolcanic belts,
               metasedimentary basins and structural corridors that has long
               attracted exploration across northwestern Ontario.
             </p>
