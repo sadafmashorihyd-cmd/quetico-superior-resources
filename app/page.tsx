@@ -16,14 +16,14 @@ export default function HomePage() {
           className="object-cover"
           style={{ objectPosition: "center 40%" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/60 to-ink/25" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/75 to-ink/45" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/30 via-transparent to-transparent" />
 
-        <div className="container-site relative flex flex-col justify-end pb-14 md:h-full md:pb-20">
+        <div className="container-site relative flex flex-col justify-end pb-14 pt-24 md:h-full md:pb-20 md:pt-0">
           <p className="label-strata mb-6 drop-shadow-[0_2px_6px_rgba(0,0,0,0.65)]">Quetico–Superior Region · Northwestern Ontario</p>
-          <h1 className="font-display text-4xl italic leading-[1.15] text-paper drop-shadow-[0_2px_10px_rgba(0,0,0,0.65)] sm:text-5xl md:text-6xl md:max-w-3xl">
-            A new dawn emerges in the Quetico, exploring for gold, copper &amp;
-            platinum group metals.
+          <h1 className="font-display text-4xl italic leading-[1.15] text-paper drop-shadow-[0_2px_14px_rgba(0,0,0,0.8)] sm:text-5xl md:text-6xl md:max-w-3xl">
+            A new dawn emerges in the Quetico, exploring for Gold, Copper &amp;
+            Platinum Group Metals.
           </h1>
           <p className="mt-7 max-w-xl text-[15px] leading-relaxed text-slate-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.6)]">
             Quetico Superior Resources Inc. is a Canadian mineral exploration
