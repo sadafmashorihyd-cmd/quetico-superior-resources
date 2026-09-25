@@ -5,10 +5,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section
-        className="relative -mt-20 w-full overflow-hidden"
-        style={{ aspectRatio: "1200 / 800", minHeight: "480px", maxHeight: "720px" }}
-      >
+      <section className="relative -mt-20 w-full overflow-hidden min-h-[620px] md:min-h-0 md:aspect-[1200/800] md:max-h-[720px]">
         <Image
           src="/hero-dawn-banner.jpg"
           alt="Sunrise over the treeline of the Quetico–Superior region, northwestern Ontario"
@@ -22,7 +19,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/60 to-ink/25" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/30 via-transparent to-transparent" />
 
-        <div className="container-site relative flex h-full flex-col justify-end pb-14 md:pb-20">
+        <div className="container-site relative flex flex-col justify-end pb-14 md:h-full md:pb-20">
           <p className="label-strata mb-6 drop-shadow-[0_2px_6px_rgba(0,0,0,0.65)]">Quetico–Superior Region · Northwestern Ontario</p>
           <h1 className="font-display text-4xl italic leading-[1.15] text-paper drop-shadow-[0_2px_10px_rgba(0,0,0,0.65)] sm:text-5xl md:text-6xl md:max-w-3xl">
             A new dawn emerges in the Quetico, exploring for gold, copper &amp;
