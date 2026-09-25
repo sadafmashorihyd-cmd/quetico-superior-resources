@@ -27,6 +27,90 @@ const resend = process.env.RESEND_API_KEY
   ? new Resend(process.env.RESEND_API_KEY)
   : null;
 
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function buildEmailHtml({
+  name,
+  email,
+  subject,
+  message,
+}: {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}) {
+  const safeName = escapeHtml(name);
+  const safeEmail = escapeHtml(email);
+  const safeSubject = escapeHtml(subject);
+  const safeMessage = escapeHtml(message).replace(/\n/g, "<br />");
+
+  return `
+  <div style="background-color:#0b1220;padding:32px 16px;font-family:Georgia,'Times New Roman',serif;">
+    <table role="presentation" width="100%" style="max-width:560px;margin:0 auto;border-collapse:collapse;">
+      <tr>
+        <td style="padding:0 0 24px 0;text-align:center;">
+          <span style="font-family:Georgia,'Times New Roman',serif;font-size:20px;letter-spacing:1px;color:#e8c468;text-transform:uppercase;">
+            Quetico Superior Resources Inc.
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color:#0f172a;border:1px solid rgba(232,196,104,0.25);padding:32px;">
+          <p style="margin:0 0 4px 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#e8c468;">
+            New Website Inquiry
+          </p>
+          <h1 style="margin:4px 0 24px 0;font-family:Georgia,'Times New Roman',serif;font-size:22px;color:#f5f1e8;">
+            ${safeSubject}
+          </h1>
+
+          <table role="presentation" width="100%" style="border-collapse:collapse;margin-bottom:20px;">
+            <tr>
+              <td style="padding:8px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#8c94a6;width:90px;vertical-align:top;">
+                Name
+              </td>
+              <td style="padding:8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#f5f1e8;">
+                ${safeName}
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:8px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#8c94a6;vertical-align:top;border-top:1px solid rgba(255,255,255,0.08);">
+                Email
+              </td>
+              <td style="padding:8px 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#f5f1e8;border-top:1px solid rgba(255,255,255,0.08);">
+                <a href="mailto:${safeEmail}" style="color:#e8c468;text-decoration:none;">${safeEmail}</a>
+              </td>
+            </tr>
+          </table>
+
+          <div style="border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;">
+            <p style="margin:0 0 8px 0;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:#8c94a6;">
+              Message
+            </p>
+            <p style="margin:0;font-family:Georgia,'Times New Roman',serif;font-size:15px;line-height:1.6;color:#d7dbe3;">
+              ${safeMessage}
+            </p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:20px 8px 0 8px;text-align:center;">
+          <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#5b6272;">
+            Sent from the contact form at queticosuperiorresources.com
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>`;
+}
+
 export async function POST(req: NextRequest) {
   try {
     const { name, email, subject, message } = await req.json();
@@ -66,6 +150,7 @@ export async function POST(req: NextRequest) {
       replyTo: email,
       subject: `Website inquiry: ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
+      html: buildEmailHtml({ name, email, subject, message }),
     });
 
     if (error) {
