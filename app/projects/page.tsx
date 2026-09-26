@@ -5,7 +5,7 @@ import PageHeader from "@/components/PageHeader";
 export const metadata: Metadata = {
   title: "Projects",
   description:
-    "The Bon Terra gold and copper exploration property, Boot Bay Area, Thunder Bay Mining Division, Ontario — held by Quetico Superior Resources Inc.",
+    "The Baril Bay gold and copper exploration property, Boot Bay Area, Thunder Bay Mining Division, Ontario — held by Quetico Superior Resources Inc.",
 };
 
 const RESULTS_2025 = [
@@ -25,7 +25,7 @@ const HISTORICAL = [
 ];
 
 const GALLERY = [
-  { src: "/projects/bon-terra-location-map.png", caption: "Provincial location — Bon Terra property, northwestern Ontario", tall: false },
+  { src: "/projects/bon-terra-location-map.png", caption: "Provincial location — Baril Bay property, northwestern Ontario", tall: false },
   { src: "/projects/bon-terra-regional-map.png", caption: "Regional access map, Boot Bay Area near Kashabowie", tall: false },
   { src: "/projects/bon-terra-geology-map.png", caption: "Property geology, structure and claim outline", tall: false },
   { src: "/projects/bon-terra-sample-map.png", caption: "2025 grab sample results by location", tall: false },
@@ -39,8 +39,8 @@ export default function ProjectsPage() {
     <>
       <PageHeader
         eyebrow="Projects"
-        title="Bon Terra — a Gold & Copper exploration property in the Lac des Mille Lacs Greenstone Belt."
-        intro="Located in the Boot Bay Area, Thunder Bay Mining Division, Bon Terra sits along the Quetico Fault — a structural corridor with a long history of gold occurrences in northwestern Ontario."
+        title="Baril Bay — a Gold & Copper exploration property in the Lac des Mille Lacs Greenstone Belt."
+        intro="Located in the Boot Bay Area, Thunder Bay Mining Division, Baril Bay sits along the Quetico Fault — a structural corridor with a long history of gold occurrences in northwestern Ontario."
       />
 
       {/* Overview */}
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
             <p className="label-strata mb-5">Property Overview</p>
             <div className="space-y-5 text-[15px] leading-relaxed text-slate-light">
               <p>
-                The Bon Terra property lies in the Boot Bay Area (NTS 052B15),
+                The Baril Bay property lies in the Boot Bay Area (NTS 052B15),
                 on the peninsula between Baril Bay and Bull Island on Lac Des
                 Milles Lacs Lake — approximately 125–132 km west of Thunder
                 Bay and roughly 60 km east of Atikokan. The property is
@@ -200,8 +200,9 @@ export default function ProjectsPage() {
             {GALLERY.map((item) => (
               <figure
                 key={item.src}
-                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
-                  }`}
+                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${
+                  item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
+                }`}
               >
                 <Image
                   src={item.src}
