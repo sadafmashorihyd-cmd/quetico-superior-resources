@@ -89,21 +89,25 @@ export default function AboutPage() {
                 <p>
                   Ayub Bodi is an entrepreneur and mining executive with a
                   track record of building and advancing natural resources
-                  companies. He founded First Class Metals plc and led the
+                  companies. He founded First Class Metals Plc and led the
                   company through its London listing in 2022.
+                </p>
+                <p>
+                  At First Class Metals Plc within 12 months of formation,
+                  Ayub secured a strategic joint venture with a partner
+                  committing to fund a C$2 million exploration programme in
+                  the Hemlo area of Ontario. Ayub also secured financing to
+                  purchase the historic Sunbeam Gold project in the Atikokan
+                  area of NW Ontario next to Agnico Eagle&rsquo;s Hammond Reef
+                  deposit. His focus is on identifying quality precious &amp;
+                  critical metal opportunities, establishing strategic
+                  partnerships, and creating long-term value for
+                  stakeholders.
                 </p>
                 <p>
                   Ayub subsequently founded an Ontario-focused metals
                   company, Quetico Superior Resources Inc., targeting gold,
                   copper, and platinum group metals (PGMs).
-                </p>
-                <p>
-                  Within 12 months of formation, he secured a strategic joint
-                  venture with a partner committing to fund a C$2 million
-                  exploration programme in Ontario. His focus is on
-                  identifying quality mineral opportunities, establishing
-                  strategic partnerships, and creating long-term value for
-                  stakeholders.
                 </p>
               </div>
             </div>
