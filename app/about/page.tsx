@@ -118,7 +118,7 @@ export default function AboutPage() {
                 Ikram (Ike) Osmani, M.Sc., P.Geo.
               </p>
               <p className="mt-1 text-[13px] text-gold-light">
-                Technical Consultant
+                Independent Technical Consultant
               </p>
               <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
                 <p>
@@ -199,7 +199,7 @@ export default function AboutPage() {
                 <p>
                   A dedicated professional with a wide-ranging skill set
                   developed over 15 years working with Canadian mineral
-                  exploration companies. I am passionate about building
+                  exploration companies. Robin is passionate about building
                   relationships and creating opportunities through responsible
                   exploration.
                 </p>
