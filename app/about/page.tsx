@@ -33,11 +33,6 @@ export default function AboutPage() {
                 to identify ground with genuine structural and geochemical
                 merit before it is advanced into the field.
               </p>
-              <p>
-                Content on our portfolio, technical team and corporate
-                structure is being finalized and will be published here as
-                the company&rsquo;s exploration program develops.
-              </p>
             </div>
           </div>
 
