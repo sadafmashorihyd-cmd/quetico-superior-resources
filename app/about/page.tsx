@@ -69,7 +69,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Placeholder: leadership / team */}
+      {/* Leadership / team */}
       <section className="border-t border-white/5 bg-ink-900 py-24 md:py-28">
         <div className="container-site">
           <p className="label-strata mb-5">Leadership</p>
@@ -108,6 +108,100 @@ export default function AboutPage() {
                   Ayub subsequently founded an Ontario-focused metals
                   company, Quetico Superior Resources Inc., targeting gold,
                   copper, and platinum group metals (PGMs).
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 border border-white/5 bg-ink p-8">
+              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
+              <p className="mt-6 font-display text-lg text-paper">
+                Ikram (Ike) Osmani, M.Sc., P.Geo.
+              </p>
+              <p className="mt-1 text-[13px] text-gold-light">
+                Technical Consultant
+              </p>
+              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+                <p>
+                  Mr. Osmani is a professional geologist with more than 40
+                  years of experience in mineral exploration, resource
+                  development, geological research, and managing publicly
+                  traded junior resource companies. He holds an M.Sc. in
+                  Geology and Geophysics from the University of Windsor and is
+                  a registered Professional Geoscientist (P.Geo.) with
+                  Engineers and Geoscientists British Columbia.
+                </p>
+                <p>
+                  Throughout his career, Mr. Osmani has worked extensively in
+                  Canada&rsquo;s Precambrian Shield and internationally, with
+                  experience spanning a broad range of mineral deposit types,
+                  including lode gold, magmatic copper-nickel-PGE, volcanogenic
+                  massive sulphide (VMS), banded iron formation (BIF),
+                  manganese, rare-earth elements (REE), and lithium-rich
+                  rare-element pegmatites. His field-based expertise includes
+                  geological mapping, prospecting, geophysical data
+                  interpretation, diamond-drilling program design and
+                  supervision, drill-core logging and interpretation,
+                  exploration project planning and management, and preparing
+                  and reviewing NI 43-101 technical reports as a Qualified
+                  Person (QP).
+                </p>
+                <p>
+                  Mr. Osmani has been involved in discovering, evaluating, and
+                  advancing several mineral exploration projects. He
+                  co-developed and published a shear-hosted gold deposit model
+                  for far northwestern Ontario and was instrumental in
+                  developing a NI 43-101-compliant gold resource of
+                  approximately one million ounces in the Indicated and
+                  Inferred categories. This resource subsequently became part
+                  of the Moss Gold Project in the Shebandowan Greenstone Belt
+                  of northwestern Ontario, which Gold X2 Mining Inc. is
+                  currently advancing.
+                </p>
+                <p>
+                  In 2001, while exploring and developing a magmatic Ni-Cu-PGE
+                  deposit on Aurora Platinum Corporation&rsquo;s Lansdowne
+                  House property, Mr. Osmani identified significant
+                  titanium-vanadium mineralization. The property is now part
+                  of PTX Metals Inc.&rsquo;s W2 property in the Ring of Fire
+                  area in northern Ontario.
+                </p>
+                <p>
+                  Mr. Osmani is the founder and principal of Faarnad
+                  Geological Consulting Inc. (FGC), a mineral exploration and
+                  mining consultancy based in Coquitlam, British Columbia.
+                  Through FGC and its associates, he provides geological and
+                  technical consulting services to exploration and mining
+                  companies, prospectors, and investors. The group brings
+                  together experienced professionals with decades of combined
+                  industry experience in designing, managing, and executing
+                  mineral exploration programs; project evaluation and due
+                  diligence; resource estimation; mine planning and
+                  scheduling; and technical audits, reviews, and reporting.
+                </p>
+                <p>
+                  Mr. Osmani combines extensive hands-on field experience with
+                  technical and corporate-level expertise, providing clients
+                  with practical, independent geological advice throughout the
+                  exploration and resource-development cycle.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 border border-white/5 bg-ink p-8">
+              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
+              <p className="mt-6 font-display text-lg text-paper">
+                Robin Webster
+              </p>
+              <p className="mt-1 text-[13px] text-gold-light">
+                Independent Consultant
+              </p>
+              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+                <p>
+                  A dedicated professional with a wide-ranging skill set
+                  developed over 15 years working with Canadian mineral
+                  exploration companies. I am passionate about building
+                  relationships and creating opportunities through responsible
+                  exploration.
                 </p>
               </div>
             </div>
