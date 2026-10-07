@@ -20,6 +20,13 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-ink/30 via-transparent to-transparent" />
 
         <div className="container-site relative flex flex-col justify-end pb-14 pt-24 md:h-full md:pb-20 md:pt-0">
+          <Link
+            href="/field-programme"
+            className="mb-5 inline-flex w-fit items-center gap-2.5 border border-gold-dim/70 bg-ink/60 px-4 py-2 text-[12px] tracking-wide2 uppercase text-gold-light backdrop-blur-sm drop-shadow-[0_2px_6px_rgba(0,0,0,0.65)] hover:border-gold hover:text-paper transition-colors"
+          >
+            <span className="h-1.5 w-1.5 shrink-0 animate-pulse rounded-full bg-gold" />
+            Mapping · Soil Sampling · Rock Sampling — Currently Underway
+          </Link>
           <p className="label-strata mb-6 drop-shadow-[0_2px_6px_rgba(0,0,0,0.65)]">Quetico–Superior Region · Northwestern Ontario</p>
           <h1 className="font-display text-4xl italic leading-[1.15] text-paper drop-shadow-[0_2px_14px_rgba(0,0,0,0.8)] sm:text-5xl md:text-6xl md:max-w-3xl">
             A new dawn emerges in the Quetico, exploring for Gold, Copper &amp;

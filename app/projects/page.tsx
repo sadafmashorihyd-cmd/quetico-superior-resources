@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 
 export const metadata: Metadata = {
@@ -103,13 +104,43 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      {/* Results */}
-      <section className="border-t border-white/5 bg-ink-900 py-24 md:py-28">
+      {/* Current Programme */}
+      <section className="border-t border-white/5 bg-ink py-24 md:py-28">
         <div className="container-site">
-          <p className="label-strata mb-5">Exploration Results</p>
+          <div className="mb-5 flex items-center gap-3">
+            <span className="h-2 w-2 shrink-0 animate-pulse rounded-full bg-gold" />
+            <p className="label-strata">Current Programme</p>
+          </div>
+          <h2 className="font-display text-3xl md:text-4xl leading-snug max-w-2xl">
+            Mapping, soil sampling and rock sampling &mdash; underway now.
+          </h2>
+          <p className="mt-6 max-w-2xl text-[15px] leading-relaxed text-slate-light">
+            A field programme began at Baril Bay on 1 October 2026, with a
+            crew on site for approximately 10&ndash;12 days, comprising
+            geological mapping, soil sampling and rock sampling. Samples
+            have been submitted for laboratory analysis; results are
+            pending.
+          </p>
+          <Link
+            href="/field-programme"
+            className="mt-7 inline-flex items-center border border-gold-dim px-7 py-3.5 text-[13px] tracking-wide2 uppercase text-gold-light hover:border-gold hover:text-paper transition-colors"
+          >
+            View Field Programme
+          </Link>
+        </div>
+      </section>
+
+      {/* Results */}
+      <section className="border-t border-white/5 bg-ink py-24 md:py-28">
+        <div className="container-site">
+          <p className="label-strata mb-5">Historical Exploration Results</p>
           <h2 className="font-display text-3xl md:text-4xl leading-snug max-w-2xl">
             A history of anomalous to high-grade gold values.
           </h2>
+          <p className="mt-4 max-w-2xl text-[13px] text-slate">
+            Prior programmes (2008&ndash;2025), separate from the current
+            field programme above.
+          </p>
 
           <div className="mt-10 overflow-x-auto">
             <table className="w-full min-w-[420px] border-collapse text-left text-[14px]">
@@ -200,9 +231,8 @@ export default function ProjectsPage() {
             {GALLERY.map((item) => (
               <figure
                 key={item.src}
-                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${
-                  item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
-                }`}
+                className={`relative overflow-hidden border border-white/5 bg-ink-900 ${item.tall ? "row-span-2 aspect-[3/4]" : "aspect-[4/3]"
+                  }`}
               >
                 <Image
                   src={item.src}

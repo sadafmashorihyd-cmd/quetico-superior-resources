@@ -23,7 +23,20 @@ type NewsItem = {
 //     summary: "One or two sentences about the update.",
 //     href: "/news/example.pdf", // optional
 //   },
-const NEWS: NewsItem[] = [];
+const NEWS: NewsItem[] = [
+  {
+    date: "1 October 2026",
+    title: "Field Programme Commences at Baril Bay",
+    summary:
+      "A 10–12 day field programme is underway at Baril Bay, comprising geological mapping, soil sampling and rock sampling. Samples have been submitted for laboratory analysis; results are pending.",
+  },
+  {
+    date: "October 2026",
+    title: "Aeromagnetic Survey Planned for January 2027",
+    summary:
+      "An aeromagnetic survey, including VTEM (versatile time-domain electromagnetics), is planned for January 2027 to further characterize subsurface structure and targets at Baril Bay.",
+  },
+];
 
 export default function NewsPage() {
   return (

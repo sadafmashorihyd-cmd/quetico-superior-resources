@@ -9,6 +9,7 @@ const NAV = [
   { href: "/about", label: "About Us" },
   { href: "/exploration", label: "Exploration" },
   { href: "/projects", label: "Projects" },
+  { href: "/field-programme", label: "Field Programme" },
   { href: "/news", label: "News" },
   { href: "/contact", label: "Contact" },
 ];
@@ -48,19 +49,16 @@ export default function Header() {
           className="md:hidden flex flex-col gap-1.5 p-2"
         >
           <span
-            className={`block h-px w-6 bg-gold-light transition-transform ${
-              open ? "translate-y-[7px] rotate-45" : ""
-            }`}
+            className={`block h-px w-6 bg-gold-light transition-transform ${open ? "translate-y-[7px] rotate-45" : ""
+              }`}
           />
           <span
-            className={`block h-px w-6 bg-gold-light transition-opacity ${
-              open ? "opacity-0" : "opacity-100"
-            }`}
+            className={`block h-px w-6 bg-gold-light transition-opacity ${open ? "opacity-0" : "opacity-100"
+              }`}
           />
           <span
-            className={`block h-px w-6 bg-gold-light transition-transform ${
-              open ? "-translate-y-[7px] -rotate-45" : ""
-            }`}
+            className={`block h-px w-6 bg-gold-light transition-transform ${open ? "-translate-y-[7px] -rotate-45" : ""
+              }`}
           />
         </button>
       </div>
