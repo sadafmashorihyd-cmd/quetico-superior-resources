@@ -65,22 +65,22 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership / team */}
-      <section className="border-t border-white/5 bg-ink-900 py-24 md:py-28">
+      <section className="border-t border-white/5 bg-ink-900 py-16 md:py-20">
         <div className="container-site">
           <p className="label-strata mb-5">Leadership</p>
           <h2 className="font-display text-3xl md:text-4xl max-w-xl leading-snug">
             Led from the field, by someone who knows the ground.
           </h2>
-          <div className="mt-12 max-w-3xl">
-            <div className="border border-white/5 bg-ink p-8">
-              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
-              <p className="mt-6 font-display text-lg text-paper">
+          <div className="mt-8 max-w-4xl">
+            <div className="border border-white/5 bg-ink p-6 md:p-7">
+              <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+              <p className="mt-4 font-display text-lg text-paper">
                 Ayub Bodi
               </p>
               <p className="mt-1 text-[13px] text-gold-light">
                 Founder
               </p>
-              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+              <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Ayub Bodi is an entrepreneur and mining executive with a
                   track record of building and advancing natural resources
@@ -107,15 +107,15 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="mt-8 border border-white/5 bg-ink p-8">
-              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
-              <p className="mt-6 font-display text-lg text-paper">
+            <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
+              <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+              <p className="mt-4 font-display text-lg text-paper">
                 Ikram (Ike) Osmani, M.Sc., P.Geo.
               </p>
               <p className="mt-1 text-[13px] text-gold-light">
                 Independent Technical Consultant
               </p>
-              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+              <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Mr. Osmani is a professional geologist with more than 40
                   years of experience in mineral exploration, resource
@@ -182,16 +182,16 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="mt-8 border border-white/5 bg-ink p-8">
-              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
-              <p className="mt-6 font-display text-lg text-paper">
+            <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
+              <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+              <p className="mt-4 font-display text-lg text-paper">
                 Wasif Mahmood
               </p>
               <p className="mt-1 text-[13px] text-gold-light">
                 International Lawyer | Legal, Regulatory &amp; Commercial
                 Adviser
               </p>
-              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+              <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Wasif Mahmood is an internationally experienced UK-qualified
                   solicitor and business adviser with professional experience
@@ -233,15 +233,15 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="mt-8 border border-white/5 bg-ink p-8">
-              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
-              <p className="mt-6 font-display text-lg text-paper">
+            <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
+              <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+              <p className="mt-4 font-display text-lg text-paper">
                 Robin Webster
               </p>
               <p className="mt-1 text-[13px] text-gold-light">
                 Independent Consultant
               </p>
-              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+              <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   A dedicated professional with a wide-ranging skill set
                   developed over 15 years working with Canadian mineral

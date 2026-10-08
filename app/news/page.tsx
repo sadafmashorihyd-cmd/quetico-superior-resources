@@ -32,9 +32,9 @@ const NEWS: NewsItem[] = [
   },
   {
     date: "October 2026",
-    title: "Aeromagnetic Survey Planned for January 2027",
+    title: "Airborne Geophysical Survey Planned for January 2027",
     summary:
-      "An aeromagnetic survey, including VTEM (versatile time-domain electromagnetics), is planned for January 2027 to further characterize subsurface structure and targets at Baril Bay.",
+      "The programme is expected to include airborne magnetic and VTEM (versatile time-domain electromagnetic) surveying, to further characterize subsurface structure and targets at Baril Bay.",
   },
 ];
 

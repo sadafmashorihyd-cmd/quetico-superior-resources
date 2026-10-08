@@ -8,6 +8,19 @@ export const metadata: Metadata = {
         "The current field programme at Baril Bay — mapping, soil sampling and rock sampling — and planned exploration work for Quetico Superior Resources Inc.",
 };
 
+const TIMELINE = [
+    { when: "Oct 2026", what: "Field mapping & sampling", status: "done" },
+    { when: "Nov/Dec 2026", what: "Assay results", status: "pending" },
+    { when: "Jan 2027", what: "Airborne geophysics", status: "planned" },
+    { when: "Q1 2027", what: "Target generation", status: "planned" },
+    {
+        when: "Q2 2027",
+        what: "Follow-up exploration / trenching",
+        status: "planned",
+    },
+    { when: "Q2/Q3 2027", what: "Drill targets", status: "planned" },
+];
+
 export default function FieldProgrammePage() {
     return (
         <>
@@ -83,19 +96,51 @@ export default function FieldProgrammePage() {
                 <div className="container-site">
                     <p className="label-strata mb-5">Planned Work</p>
                     <h2 className="font-display text-3xl md:text-4xl leading-snug max-w-2xl">
-                        Aeromagnetic survey planned for January 2027.
+                        Airborne geophysical survey planned for January 2027.
                     </h2>
                     <p className="mt-6 max-w-2xl text-[15px] leading-relaxed text-slate-light">
-                        An aeromagnetic survey, including VTEM (versatile time-domain
-                        electromagnetics), is planned for January 2027 to further
+                        The programme is expected to include airborne magnetic and VTEM
+                        (versatile time-domain electromagnetic) surveying, to further
                         characterize subsurface structure and targets across the
                         property.
                     </p>
                 </div>
             </section>
 
+            {/* Exploration timeline */}
+            <section className="border-t border-white/5 bg-ink py-24 md:py-28">
+                <div className="container-site">
+                    <p className="label-strata mb-5">Exploration Timeline</p>
+                    <h2 className="font-display text-3xl md:text-4xl leading-snug max-w-2xl">
+                        From field mapping to drill targets.
+                    </h2>
+                    <p className="mt-4 text-[13px] text-slate">
+                        Updated as each stage is completed.
+                    </p>
+                    <ol className="mt-12 grid gap-8 md:grid-cols-3 lg:grid-cols-6">
+                        {TIMELINE.map((t) => (
+                            <li key={t.when} className="border-t border-gold-dim/50 pt-5">
+                                <div className="flex items-center gap-2">
+                                    {t.status === "done" ? (
+                                        <span className="text-sm text-gold">&#10003;</span>
+                                    ) : t.status === "pending" ? (
+                                        <span className="h-2 w-2 shrink-0 animate-pulse rounded-full bg-gold" />
+                                    ) : (
+                                        <span className="h-2 w-2 shrink-0 rounded-full border border-gold-dim" />
+                                    )}
+                                    <p className="font-display text-lg text-gold-light">
+                                        {t.when}
+                                    </p>
+                                </div>
+                                <p className="mt-2 text-[13px] text-slate">{t.what}</p>
+                            </li>
+                        ))}
+                    </ol>
+                </div>
+            </section>
+
             {/* Links out */}
-            <section className="bg-ink py-20">
+            <section className="border-t border-white/5 bg-ink-900 py-20">
                 <div className="container-site flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
                     <p className="max-w-md text-[15px] leading-relaxed text-slate-light">
                         For the property&rsquo;s historical exploration results, visit
