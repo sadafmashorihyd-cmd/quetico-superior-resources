@@ -71,15 +71,19 @@ export default function AboutPage() {
           <h2 className="font-display text-3xl md:text-4xl max-w-xl leading-snug">
             Led from the field, by someone who knows the ground.
           </h2>
+
           <div className="mt-8 max-w-4xl">
             <div className="border border-white/5 bg-ink p-6 md:p-7">
               <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+
               <p className="mt-4 font-display text-lg text-paper">
                 Ayub Bodi
               </p>
+
               <p className="mt-1 text-[13px] text-gold-light">
                 Founder
               </p>
+
               <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Ayub Bodi is an entrepreneur and mining executive with a
@@ -109,12 +113,15 @@ export default function AboutPage() {
 
             <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
               <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+
               <p className="mt-4 font-display text-lg text-paper">
                 Ikram (Ike) Osmani, M.Sc., P.Geo.
               </p>
+
               <p className="mt-1 text-[13px] text-gold-light">
                 Independent Technical Consultant
               </p>
+
               <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Mr. Osmani is a professional geologist with more than 40
@@ -184,13 +191,16 @@ export default function AboutPage() {
 
             <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
               <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+
               <p className="mt-4 font-display text-lg text-paper">
                 Wasif Mahmood
               </p>
+
               <p className="mt-1 text-[13px] text-gold-light">
                 International Lawyer | Legal, Regulatory &amp; Commercial
                 Adviser
               </p>
+
               <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
                   Wasif Mahmood is an internationally experienced UK-qualified
@@ -235,19 +245,28 @@ export default function AboutPage() {
 
             <div className="mt-4 border border-white/5 bg-ink p-6 md:p-7">
               <div className="h-12 w-12 rounded-full border border-gold-dim/50" />
+
               <p className="mt-4 font-display text-lg text-paper">
                 Robin Webster
               </p>
+
               <p className="mt-1 text-[13px] text-gold-light">
                 Independent Consultant
               </p>
+
               <div className="mt-4 space-y-3 text-[14px] leading-[1.6] text-slate-light">
                 <p>
-                  A dedicated professional with a wide-ranging skill set
-                  developed over 15 years working with Canadian mineral
-                  exploration companies. Robin is passionate about building
-                  relationships and creating opportunities through responsible
-                  exploration.
+                  Robin Webster is President of RKB Wolf LLC which helps
+                  companies in the business of discovery.
+                </p>
+
+                <p>
+                  Robin has worked with junior explorers in Northern Ontario
+                  for 20 years and is highly experienced in project management
+                  and operations. Robin&rsquo;s experience also includes
+                  permitting and community engagement work through which he
+                  developed strong relationships at multiple levels of
+                  government and First Nations communities.
                 </p>
               </div>
             </div>
