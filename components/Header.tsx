@@ -19,14 +19,14 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/5 bg-ink-900/85 backdrop-blur">
-      <div className="container-site flex items-center justify-between gap-8 h-20">
+      <div className="container-site flex items-center justify-between gap-6 h-20">
         <div className="shrink-0">
           <Logo />
         </div>
 
         {/* Full menu only on wide screens; below that the menu button is used,
             so the tabs never crowd or overlap. */}
-        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 whitespace-nowrap">
+        <nav className="hidden xl:flex items-center gap-5 2xl:gap-7 whitespace-nowrap">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -38,11 +38,10 @@ export default function Header() {
           ))}
         </nav>
 
-        {/* Contact is already in the menu, so this button only shows on very
-            wide screens where there is room, and is smaller than before. */}
+        {/* Get in touch remains visible on wide laptop/desktop screens. */}
         <Link
           href="/contact"
-          className="hidden 2xl:inline-flex shrink-0 items-center border border-gold-dim px-4 py-2 text-[12px] tracking-wide2 uppercase text-gold-light hover:bg-gold hover:text-ink hover:border-gold transition-colors"
+          className="hidden xl:inline-flex shrink-0 items-center border border-gold-dim px-3.5 py-2 text-[12px] tracking-wide2 uppercase text-gold-light hover:bg-gold hover:text-ink hover:border-gold transition-colors"
         >
           Get in touch
         </Link>
