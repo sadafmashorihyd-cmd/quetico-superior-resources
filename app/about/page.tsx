@@ -185,6 +185,57 @@ export default function AboutPage() {
             <div className="mt-8 border border-white/5 bg-ink p-8">
               <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
               <p className="mt-6 font-display text-lg text-paper">
+                Wasif Mahmood
+              </p>
+              <p className="mt-1 text-[13px] text-gold-light">
+                International Lawyer | Legal, Regulatory &amp; Commercial
+                Adviser
+              </p>
+              <div className="mt-5 space-y-4 text-[14px] leading-relaxed text-slate-light">
+                <p>
+                  Wasif Mahmood is an internationally experienced UK-qualified
+                  solicitor and business adviser with professional experience
+                  across the United Kingdom, North America, Europe and the
+                  Middle East. He advises companies, entrepreneurs, investors
+                  and high-net-worth individuals on complex commercial,
+                  regulatory and cross-border matters, with particular
+                  expertise in corporate governance, regulatory compliance,
+                  financial services, commercial risk and strategic business
+                  development.
+                </p>
+                <p>
+                  Wasif has specialist experience in financial and regulatory
+                  matters, including the Financial Services and Markets Act,
+                  the Regulated Activities Order and the FCA regulatory
+                  framework, as well as payment services, consumer credit and
+                  the development of regulated products and services. He has
+                  also advised innovative businesses in emerging sectors,
+                  including fintech and distributed-ledger technology,
+                  providing guidance on regulatory requirements, commercial
+                  strategy and risk management.
+                </p>
+                <p>
+                  Alongside his legal practice, Wasif has significant
+                  corporate and business leadership experience, including
+                  serving as a company director. He brings to Quetico Superior
+                  Resources Inc. an international perspective on governance,
+                  regulation, strategic decision-making and commercial risk as
+                  the Company advances its mineral exploration portfolio and
+                  develops relationships with investors, strategic partners and
+                  international stakeholders.
+                </p>
+                <p>
+                  His combination of international legal expertise, regulatory
+                  knowledge and commercial experience provides valuable
+                  strategic support to the Company as it progresses its growth
+                  objectives within the international natural-resources sector.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-8 border border-white/5 bg-ink p-8">
+              <div className="h-16 w-16 rounded-full border border-gold-dim/50" />
+              <p className="mt-6 font-display text-lg text-paper">
                 Robin Webster
               </p>
               <p className="mt-1 text-[13px] text-gold-light">

@@ -19,10 +19,14 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 inset-x-0 z-50 border-b border-white/5 bg-ink-900/85 backdrop-blur">
-      <div className="container-site flex items-center justify-between h-20">
-        <Logo />
+      <div className="container-site flex items-center justify-between gap-8 h-20">
+        <div className="shrink-0">
+          <Logo />
+        </div>
 
-        <nav className="hidden md:flex items-center gap-9">
+        {/* Full menu only on wide screens; below that the menu button is used,
+            so the tabs never crowd or overlap. */}
+        <nav className="hidden xl:flex items-center gap-6 2xl:gap-8 whitespace-nowrap">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -34,9 +38,11 @@ export default function Header() {
           ))}
         </nav>
 
+        {/* Contact is already in the menu, so this button only shows on very
+            wide screens where there is room, and is smaller than before. */}
         <Link
           href="/contact"
-          className="hidden md:inline-flex items-center border border-gold-dim px-5 py-2.5 text-[13px] tracking-wide2 uppercase text-gold-light hover:bg-gold hover:text-ink hover:border-gold transition-colors"
+          className="hidden 2xl:inline-flex shrink-0 items-center border border-gold-dim px-4 py-2 text-[12px] tracking-wide2 uppercase text-gold-light hover:bg-gold hover:text-ink hover:border-gold transition-colors"
         >
           Get in touch
         </Link>
@@ -46,7 +52,7 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
           aria-label="Toggle menu"
-          className="md:hidden flex flex-col gap-1.5 p-2"
+          className="xl:hidden flex flex-col gap-1.5 p-2"
         >
           <span
             className={`block h-px w-6 bg-gold-light transition-transform ${open ? "translate-y-[7px] rotate-45" : ""
@@ -64,7 +70,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="md:hidden border-t border-white/5 bg-ink-900">
+        <nav className="xl:hidden border-t border-white/5 bg-ink-900">
           <div className="container-site flex flex-col py-4">
             {NAV.map((item) => (
               <Link
