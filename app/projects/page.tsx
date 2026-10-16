@@ -26,9 +26,9 @@ const HISTORICAL = [
 ];
 
 const GALLERY = [
-  { src: "/projects/map-e-provincial.png", caption: "Provincial location map", tall: false },
-  { src: "/projects/map-d-regional.png", caption: "Regional distance map", tall: false },
-  { src: "/projects/map-b-geology.png", caption: "Property geology and lithology", tall: false },
+  { src: "/projects/bon-terra-location-map.png", caption: "Provincial location — Baril Bay property, northwestern Ontario", tall: false },
+  { src: "/projects/bon-terra-regional-map.png", caption: "Regional access map, Boot Bay Area near Kashabowie", tall: false },
+  { src: "/projects/bon-terra-geology-map.png", caption: "Property geology, structure and claim outline", tall: false },
   { src: "/projects/bon-terra-sample-map.png", caption: "2025 grab sample results by location", tall: false },
   { src: "/projects/bon-terra-outcrop-photo.png", caption: "Field outcrop showing quartz veining and shearing", tall: true },
   { src: "/projects/bon-terra-sample-c273435.jpg", caption: "Sample C273435, collected on outcrop", tall: true },
@@ -206,24 +206,24 @@ export default function ProjectsPage() {
 
           <figure className="mb-10">
             <a
-              href="/projects/map-a-property-boundary.png"
+              href="/projects/baril-bay-project-map.png"
               target="_blank"
               rel="noopener noreferrer"
               className="block border border-white/5 bg-white"
             >
               <Image
-                src="/projects/map-a-property-boundary.png"
-                alt="Property boundary map showing drillholes and mineral occurrences, Quetico Superior Resources"
-                width={1233}
-                height={952}
+                src="/projects/baril-bay-project-map.png"
+                alt="Project scale map of the Baril Bay Property, Boot Bay Area, Ontario, showing mining cell claims, the Benton #1 Trench and nearby occurrences"
+                width={2420}
+                height={1870}
                 quality={95}
                 sizes="(min-width: 1280px) 1200px, 100vw"
                 className="h-auto w-full"
               />
             </a>
             <figcaption className="mt-3 text-[12px] text-slate">
-              Property boundary, drillholes and mineral occurrences. Click to
-              open full size.
+              Project scale map — Baril Bay Property, Boot Bay Area, Ontario
+              (May 2026). Click to open full size.
             </figcaption>
           </figure>
 
@@ -245,6 +245,11 @@ export default function ProjectsPage() {
               </figure>
             ))}
           </div>
+          <p className="mt-6 text-[12px] text-slate">
+            Project scale map prepared for Quetico Superior Resources Inc.
+            Other maps and figures from prospecting and assessment work by
+            Salo Geoscience Services (2025) and R. Hrkac (2022).
+          </p>
         </div>
       </section>
 
